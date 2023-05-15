@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* center horizontally */
+  height: 100vh; /* set a height to vertically center */
+}
+
+.center {
+	text-align: center;
+}
+	
+body {
+	color: #cad3f5;
+	accent-color: #f0c6c6;
+	background-color: #1e2030;
+}
+
+#bottom-div {
+  position: absolute;
+  bottom: 0;
+	margin-bottom: 7px;
+}
+
+#bottom-container {
+	position: relative;
+	height: 300px;
+}
+
+#lyric h3 {
+	position: absolute;
+	bottom: 0;
+	color: #24273a;
+}
