@@ -1,3 +1,7 @@
+<style>
+  @import url('https://fonts.nexuspipe.com/css2?family=Martian+Mono&display=swap');
+</style>
+
 .container {
   display: flex;
   align-items: center;
@@ -27,6 +31,7 @@ body {
 }
 
 #lyric h3 {
+	font-family: "Martian Mono";
 	position: absolute;
 	bottom: 0;
 	color: #24273a;

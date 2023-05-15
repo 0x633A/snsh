@@ -1,3 +1,7 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+</style>
+
 .container {
   display: flex;
   align-items: center;
@@ -27,6 +31,7 @@ body {
 }
 
 h3 {
+	font-family: "Martian Mono";
   position: absolute;
   bottom: 0;
   right: 0;
@@ -53,10 +58,12 @@ h3 {
 }
 
 #github-profile h2 {
+	font-family: "Martian Mono";
   margin: 0;
 }
 
 #lyric h3 {
+	font-family: "Martian Mono";
 	white-space: no-wrap;
 	font-size: 12px;
 }
