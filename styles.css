@@ -1,4 +1,4 @@
-@import url('https://fonts.nexuspipe.com/css2?family=Martian+Mono&display=swap');
+@import url('https://fonts.nexuspipe.com/css2?family=JetBrains+Mono&display=swap');
 
 .container {
   display: flex;
@@ -12,7 +12,7 @@
 }
 	
 body {
-	font-family: "Martian Mono";
+	font-family: "JetBrains Mono", monospace;
 	color: #cad3f5;
 	accent-color: #f0c6c6;
 	background-color: #1e2030;
@@ -30,7 +30,7 @@ body {
 }
 
 #lyric h3 {
-	font-family: "Martian Mono";
+	font-family: "JetBrains Mono", monospace;
 	position: absolute;
 	bottom: 0;
 	color: #24273a;
