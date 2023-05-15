@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* center horizontally */
+  height: 100vh; /* set a height to vertically center */
+}
+
+.center {
+	text-align: center;
+}
+	
+body {
+	color: #cad3f5;
+	accent-color: #f0c6c6;
+	background-color: #1e2030;
+}
+
+#bottom-div {
+  position: absolute;
+  bottom: 0;
+	margin-bottom: 7px;
+}
+
+#bottom-container {
+	position: relative;
+	height: 300px;
+}
+
+h3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+	color: #24273a
+}
+
+#github-profile {
+	border-radius: 10px;
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+  align-items: center;
+	background-color: #181926;
+	padding: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #f0c6c6;
+}
+
+#github-profile img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+#github-profile h2 {
+  margin: 0;
+}
+
+#lyric h3 {
+	white-space: no-wrap;
+	font-size: 12px;
+}
+
+.repo-card {
+  background-color: #363a4f;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
+
+.repo-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+	color: #cad3f5;
+}
+
+.repo-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+	color: #cad3f5;
+}
+
+.repo-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.repo-details span {
+  font-size: 14px;
+	color: #cad3f5;
+}
+
+.repo-details span i {
+  margin-right: 5px;
+	color: #cad3f5;
+}
