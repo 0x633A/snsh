@@ -22,16 +22,19 @@ body {
   position: absolute;
   bottom: 0;
 	margin-bottom: 7px;
+	height: 200px;
 }
 
 #bottom-container {
 	position: relative;
 	height: 300px;
+	margin-right: 25px;
 }
 
 #lyric h3 {
 	font-family: "JetBrains Mono", monospace;
 	position: absolute;
 	bottom: 0;
+	left: 0;
 	color: #24273a;
 }

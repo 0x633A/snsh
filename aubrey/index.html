@@ -16,9 +16,30 @@
 	
 		<link rel="icon" type="image/jpg" href="fortuneteller.jpg">
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="../navbar/navbar.css">
+		<link rel="stylesheet" type="text/css" href="../misc/gradient.css">
+
+		<script>
+			function generateRandomVideoId() {
+  			// array of YouTube video IDs
+  			var videoIds = ["sQTk4eK2fP4", "4aQBkCrpWOg", "gGGPMTvfYb4", "eAC-XiRyZHA", "VuG-B35IOvA"];
+
+  			// generate a random index based on the length of the array
+  			var randomIndex = Math.floor(Math.random() * videoIds.length);
+
+  			// return the video ID at the random index
+  			return videoIds[randomIndex];
+			}
+		</script>
 </head>
 <body>
-
+	<nav class="navbar">
+  	<a href="/" class="navbar-brand"><img src="fortuneteller.jpg" alt="fortune teller"></a>
+  	<ul class="navbar-nav">
+			<li class="nav-item"><a onclick="window.location.href = 'https://www.youtube.com/watch?v=' + generateRandomVideoId();">random</a></li>
+		</ul>
+	</nav>
+	
 	<div class="about-me">
   <h2>know me</h2>
   <p>my name is 0x633A (or also known as aubrey)</p>
